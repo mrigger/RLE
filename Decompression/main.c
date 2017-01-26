@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	printf("Copyright (C) Remi DEBORD. All rights reserved (2016)).\n\n"); 
 	
 	// Exit if no argument is passed
-	if(argv[1] == NULL)
+	if(argc == 1)
 	{
 		return 0;
 	}
